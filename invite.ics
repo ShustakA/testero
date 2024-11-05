@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Tbilisi
+X-LIC-LOCATION:Asia/Tbilisi
+BEGIN:STANDARD
+TZOFFSETFROM:+0400
+TZOFFSETTO:+0400
+TZNAME:GMT+4
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Tbilisi:20241029T183000
+DTEND;TZID=Asia/Tbilisi:20241029T200000
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20241105T195959Z;BYDAY=SA,TU,TH,FR
+DTSTAMP:20241029T092744Z
+ORGANIZER;CN=Women in AI:mailto:womeninai@btu.edu.ge
+UID:fv5uj2v5o859gfor71m7vqd7cg@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=vonitova@gmail.com;X-NUM-GUESTS=0:mailto:vonitova@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/bzf-beqx-gey
+X-MICROSOFT-CDO-OWNERAPPTID:490676338
+CREATED:20240910T065328Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nПриєднатися через Google Meet: https://meet.googl
+ e.com/bzf-beqx-gey\n\nДокладну інформацію про Meet можна переглянути на цій
+  сторінці: https://support.google.com/a/users/answer/9282720\n\nНе змінюйте
+  цей розділ.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20241029T092740Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Tech English_Group B1/B2
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
